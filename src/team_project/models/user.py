@@ -50,4 +50,4 @@ class User:
         Safely adds a new role to the user's active role list.
         """
         if role not in self.roles:
-        self.roles.append(role)
+            self.roles.append(role)
